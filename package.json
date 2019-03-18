@@ -1,0 +1,43 @@
+{
+  "name": "regauge",
+  "version": "1.0.0",
+  "description": "React Gauge Charts",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyas315/regauge.git"
+  },
+  "keywords": [
+    "React",
+    "D3",
+    "Javascript"
+  ],
+  "author": "Vedavyas Chigurupati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vyas315/regauge/issues"
+  },
+  "homepage": "https://github.com/vyas315/regauge#readme",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-react-transform": "^3.0.0",
+    "react-hot-loader": "^4.8.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
